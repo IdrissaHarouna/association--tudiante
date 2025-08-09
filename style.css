@@ -1,0 +1,187 @@
+*{
+    margin: O;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1148fc;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, hsl(213, 66%, 13%), #1a163b);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header .btn {
+    display: inline-block;
+    background: white;
+    color: #0d6efd;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* SECTIONS  Rejoins*/
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Revien{
+    display: flex;
+    gap: 35px;
+}
+
+.deux-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pht{
+    margin-top: 85px;
+}
+
+.deux {
+     background: linear-gradient(135deg, hsl(213, 66%, 13%), #1a163b);
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+
+.pop{
+    display: flex;
+    gap: 50px;
+}
+
+/* FORMULAIRE DE CONTACT */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.contact-form label {
+    font-weight: bold;
+    
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 30%;
+    background: linear-gradient(135deg, hsl(213, 66%, 13%), #1a163b);
+    
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-form button {
+    background: #0d6efd;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 15%;
+    
+}
+
+.contact-form button:hover {
+    background: #084298;
+}
+
+
+
+    
+
+footer {
+  background: linear-gradient(135deg, hsl(213, 66%, 13%), #1a163b);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        background: #0d6efd;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        display: none;
+    }
+    .nav-links.show {
+        display: flex;
+    }
+    .deux-container {
+        flex-direction: column;
+    }
+}
