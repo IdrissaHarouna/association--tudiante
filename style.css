@@ -112,9 +112,12 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    width: 700px;
+    margin-left: 150px;
     align-items: center;
     text-align: left;
+    background-color: #1a163b;
     
 }
 
@@ -123,6 +126,11 @@ h2 {
     
 }
 
+.ALL{
+    color: #ccc;
+}
+
+
 .contact-form input,
 .contact-form textarea {
     padding: 10px;
@@ -130,7 +138,7 @@ h2 {
     border-radius: 5px;
     font-size: 16px;
     width: 30%;
-    background: linear-gradient(135deg, hsl(213, 66%, 13%), #1a163b);
+    
     
 }
 
@@ -149,6 +157,7 @@ h2 {
     cursor: pointer;
     font-weight: bold;
     width: 15%;
+    margin-bottom: 50px;
     
 }
 
