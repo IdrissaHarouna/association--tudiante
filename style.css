@@ -175,22 +175,3 @@ footer {
     text-align: center;
     padding: 15px;
 }
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    .nav-links {
-        flex-direction: column;
-        background: #0d6efd;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 200px;
-        display: none;
-    }
-    .nav-links.show {
-        display: flex;
-    }
-    .deux-container {
-        flex-direction: column;
-    }
-}
